@@ -2,7 +2,7 @@
 
 **Iniciar el authorization-server**
 
-Obtención del token : utilizando el client_id "user" y password "secret"
+Obtención del token : utilizando el client_id "client" y password "secret"
 
 ```
 $ curl --location --request POST '127.0.0.1:8080/oauth2/token' --header 'Content-Type: application/x-www-form-urlencoded' --header 'Authorization: Basic Y2xpZW50OnNlY3JldA==' --data-urlencode 'grant_type=client_credentials'
