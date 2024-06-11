@@ -14,6 +14,7 @@ $ curl --location --request POST '127.0.0.1:8080/oauth2/token' --header 'Content
   "expires_in":299
 }
 ```
+Configuración en : _application.yml_
 
 
 
